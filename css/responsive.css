@@ -2,6 +2,9 @@
   body {
     font-size: 14px;
   }
+  .fullscreen-image {
+    height: 50vh;
+  }
   h1 {
     font-size: 35px;
   }
