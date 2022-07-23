@@ -67,7 +67,7 @@ a.meanmenu-reveal {
   padding: 1em 5% 13px;
   margin: 0;
   text-align: left;
-  color: #677294;
+  color: var(--secondary-color);
   border-top: 1px solid #dbeefd;
   text-decoration: none;
 }
@@ -77,7 +77,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li li a {
   width: 80%;
   padding: 1em 10% 13px;
-  color: #677294;
+  color: var(--main-color);
   border-top: 1px solid #dbeefd;
   opacity: 1;
   filter: alpha(opacity=75);
