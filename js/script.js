@@ -2,11 +2,11 @@ jQuery(
   (function ($) {
     "use strict";
     $(".mean-menu").meanmenu({ meanScreenWidth: "1199" });
-    $(window).on("scroll", function () {
-      $(window).scrollTop() >= 100
-        ? $(".main-navbar-area").addClass("stickyadd")
-        : $(".main-navbar-area").removeClass("stickyadd");
-    });
+    // $(window).on("scroll", function () {
+    //   $(window).scrollTop() >= 100
+    //     ? $(".main-navbar-area").addClass("stickyadd")
+    //     : $(".main-navbar-area").removeClass("stickyadd");
+    // });
     $("a.nav-link").on("click", function (e) {
       var $this = $(this);
       $("html, body")
