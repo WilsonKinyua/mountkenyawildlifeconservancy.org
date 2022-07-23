@@ -523,6 +523,7 @@ textarea.form-control {
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
   color: var(--main-color);
+  font-weight: 800;
 }
 .constik-nav .navbar .navbar-nav .nav-item a.active::before {
   opacity: 1;
@@ -6558,10 +6559,10 @@ textarea.form-control {
   font-family: "Work sans", sans-serif;
 }
 .fullscreen-image-content h3 {
-  font-size: 2.3em;
-  font-weight: 600;
+  font-size: 2em;
+  font-weight: 500;
 }
 .fullscreen-image-content p {
-  font-size: 1.2em;
-  line-height: 42px;
+  font-size: 1em;
+  line-height: 35px;
 }
