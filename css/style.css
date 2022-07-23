@@ -1,6 +1,4 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap";
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Unna&display=swap");
 :root {
   --main-color: #536413;
   --secondary-color: #511013;
@@ -10,10 +8,16 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Work sans", sans-serif;
 }
 .main-color {
   color: var(--main-color);
+}
+.border-top {
+  border-top:  1px solid var(--secondary-color);
+}
+.border-right {
+  border-right: 1px solid rgb(180, 180, 180);
 }
 .h1,
 .h2,
@@ -516,21 +520,7 @@ textarea.form-control {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.constik-nav .navbar .navbar-nav .nav-item a:hover {
-  color: var(--main-color);
-}
-/* .constik-nav .navbar .navbar-nav .nav-item a::before {
-  font-family: "font awesome 5 free";
-  font-weight: 600;
-  font-size: 22px;
-  position: absolute;
-  content: "\f0de";
-  left: 50%;
-  bottom: 0;
-  -webkit-transform: translate(-50%, 15px);
-  transform: translate(-50%, 15px);
-  opacity: 0;
-} */
+
 .constik-nav .navbar .navbar-nav .nav-item a.active {
   color: var(--main-color);
 }
@@ -3322,7 +3312,7 @@ textarea.form-control {
   z-index: 1;
   overflow: hidden;
   background-size: cover;
-  border: 1px solid #e6e6e6;
+  /* border: 1px solid #e6e6e6; */
 }
 .partner-two::after {
   position: absolute;
@@ -6565,7 +6555,7 @@ textarea.form-control {
 }
 
 .fullscreen-image-content {
-  font-family: "Unna", serif;
+  font-family: "Work sans", sans-serif;
 }
 .fullscreen-image-content h3 {
   font-size: 2.3em;

@@ -130,21 +130,22 @@ jQuery(
       responsiveClass: true,
       responsive: { 0: { items: 1 }, 768: { items: 2 }, 1000: { items: 3 } },
     });
-    $(".partner-slider").owlCarousel({
-      loop: true,
-      nav: false,
-      dots: false,
-      smartSpeed: 2000,
-      margin: 30,
-      autoplayHoverPause: true,
-      autoplay: true,
-      responsive: {
-        0: { items: 2 },
-        768: { items: 3 },
-        1024: { items: 4 },
-        1200: { items: 6 },
-      },
-    });
+    // $(".partner-slider").owlCarousel({
+    //   loop: false,
+    //   nav: false,
+    //   dots: false,
+    //   smartSpeed: 2000,
+    //   center:true,
+    //   margin: 30,
+    //   autoplayHoverPause: true,
+    //   autoplay: false,
+    //   responsive: {
+    //     0: { items: 2 },
+    //     768: { items: 3 },
+    //     1024: { items: 4 },
+    //     1200: { items: 6 },
+    //   },
+    // });
     $(".instrument-slider").owlCarousel({
       loop: true,
       margin: 20,
