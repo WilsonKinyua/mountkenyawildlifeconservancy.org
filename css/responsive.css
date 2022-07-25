@@ -1542,7 +1542,7 @@
 
 @media only screen and (max-width: 1280px) {
   .banner-content {
-    padding-top: 80px;
+    padding-top: 220px;
   }
   .banner-content h1 {
     font-size: 3em;
@@ -1551,6 +1551,6 @@
     margin-left: 0;
   }
   .constik-nav .navbar .navbar-nav .nav-item a {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
