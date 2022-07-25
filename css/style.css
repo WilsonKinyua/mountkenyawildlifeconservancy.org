@@ -1,4 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap";
+
+@font-face {
+  font-family: 'Floreal';
+  src: url('../fonts/Floreal.otf');
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('../fonts/ProximaNova-Regular.otf');
+}
+
 :root {
   --main-color: #536413;
   --secondary-color: #511013;
@@ -583,7 +594,7 @@ textarea.form-control {
   .dropdown-menu
   .nav-item
   .nav-link:hover {
-    background-color: #531B02;
+  background-color: #531b02;
 }
 .constik-nav
   .navbar
@@ -1740,23 +1751,25 @@ textarea.form-control {
   background: rgba(26, 26, 26, 0.496236);
 }
 .banner-content {
-  padding-top: 200px;
+  padding-top: 350px;
   padding-bottom: 200px;
 }
 .banner-content h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: #fff;
   margin-bottom: 20px;
   margin-top: -15px;
   line-height: 1.2;
+  font-family: 'Floreal', sans-serif;
 }
 .banner-content h1 span {
   color: var(--main-color);
 }
 .banner-content p {
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   margin-bottom: 35px;
+  font-family: 'Proxima', sans-serif;
 }
 .banner-content .social-link a {
   display: inline-block;
@@ -6575,4 +6588,40 @@ textarea.form-control {
 .fullscreen-image-content p {
   font-size: 1em;
   line-height: 35px;
+}
+/* scroll down arrow animation */
+
+.scroll-down-arrow {
+  padding-top: 70px;
+}
+.scroll-arrow {
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  animation: arrow-wave 1s infinite;
+  animation-direction: alternate;
+  margin: auto;
+}
+.scroll-arrow:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.scroll-arrow:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.scroll-arrow:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes arrow-wave {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
