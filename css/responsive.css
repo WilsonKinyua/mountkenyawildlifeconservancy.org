@@ -855,6 +855,9 @@
   body {
     font-size: 15px;
   }
+  .banner-content {
+    margin-top: 140px;
+  }
   h2 {
     font-size: 35px;
   }
@@ -1552,5 +1555,11 @@
   }
   .constik-nav .navbar .navbar-nav .nav-item a {
     font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .banner-content h1 {
+    font-size: 1.5em;
   }
 }
