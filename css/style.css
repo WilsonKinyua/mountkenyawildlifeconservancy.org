@@ -1755,10 +1755,11 @@ textarea.form-control {
   padding-bottom: 200px;
 }
 .banner-content h1 {
-  font-size: 45px;
+  font-size: 53px;
   color: #fff;
   margin-bottom: 20px;
   margin-top: -15px;
+  letter-spacing: 10px;
   line-height: 1.2;
   font-family: 'Floreal', sans-serif;
 }
