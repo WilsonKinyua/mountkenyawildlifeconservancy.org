@@ -1541,6 +1541,9 @@
   .privacy-area .details-desc {
     padding-left: 20px;
   }
+  header .container {
+    max-width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
