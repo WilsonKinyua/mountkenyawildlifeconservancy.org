@@ -520,16 +520,16 @@ textarea.form-control {
 .constik-nav .navbar .navbar-brand img {
   width: auto;
   max-width: 100%;
-  max-height: 194px;
+  max-height: 200px;
 }
 .constik-nav .navbar .navbar-nav .nav-item {
   position: relative;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .constik-nav .navbar .navbar-nav .nav-item a {
   color: #1a1a1a;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   padding-left: 0;
   padding-right: 0;
@@ -538,7 +538,7 @@ textarea.form-control {
 }
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
-  color: #adda09;
+  color: darkgreen;
   font-weight: 800;
 }
 .constik-nav .navbar .navbar-nav .nav-item a.active::before {
@@ -6625,3 +6625,4 @@ textarea.form-control {
     opacity: 1;
   }
 }
+
