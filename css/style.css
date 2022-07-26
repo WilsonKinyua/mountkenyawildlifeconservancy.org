@@ -538,7 +538,7 @@ textarea.form-control {
 }
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
-  color: darkgreen;
+  color: #3CB371;
   font-weight: 800;
 }
 .constik-nav .navbar .navbar-nav .nav-item a.active::before {
