@@ -207,7 +207,7 @@ p:last-child {
   text-transform: capitalize;
 }
 .donate {
-  background-color: #541b01;
+  background-color: #8d5013;
 }
 .primary-btn::before,
 .primary-btn::after {
@@ -538,7 +538,7 @@ textarea.form-control {
 }
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
-  color: #3CB371;
+  color: #8d5013;
   font-weight: 800;
 }
 .constik-nav .navbar .navbar-nav .nav-item a.active::before {
@@ -1751,7 +1751,7 @@ textarea.form-control {
   background: rgba(26, 26, 26, 0.496236);
 }
 .banner-content {
-  padding-top: 350px;
+  padding-top: 390px;
   padding-bottom: 200px;
 }
 .banner-content h1 {
@@ -1767,7 +1767,7 @@ textarea.form-control {
   color: var(--main-color);
 }
 .banner-content p {
-  font-size: 20px;
+  font-size: 23.5px;
   color: #fff;
   margin-bottom: 35px;
   font-family: 'Proxima', sans-serif;
@@ -6593,7 +6593,7 @@ textarea.form-control {
 /* scroll down arrow animation */
 
 .scroll-down-arrow {
-  padding-top: 70px;
+  padding-top: 20px;
 }
 .scroll-arrow {
   width: 18px;
