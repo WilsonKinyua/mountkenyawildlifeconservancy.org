@@ -6593,7 +6593,7 @@ textarea.form-control {
 /* scroll down arrow animation */
 
 .scroll-down-arrow {
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .scroll-arrow {
   width: 18px;
