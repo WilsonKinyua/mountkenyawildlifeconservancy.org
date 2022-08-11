@@ -12,6 +12,7 @@
 
 :root {
   --main-color: #536413;
+  --primary-color:#8d5013;
   --secondary-color: #511013;
 }
 
@@ -199,7 +200,7 @@ p:last-child {
   padding: 8px 25px;
   z-index: 1;
   color: #ffffff;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   font-size: 17px;
   font-weight: 500;
   font-family: work sans, sans-serif;
@@ -245,7 +246,7 @@ p:last-child {
   display: inline-block;
   line-height: 0;
   text-align: center;
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: #fff;
   padding: 10px 12px;
   font-size: 16px;
@@ -411,7 +412,7 @@ textarea.form-control {
   padding: 16px 0;
   margin-top: 0;
   margin-top: unset;
-  /* background: rgba(0, 30, 76, 0.445); here */
+  background: #fff;
 }
 .header-area.header-two .constik-nav .navbar,
 .header-area.header-three .constik-nav .navbar {
@@ -424,11 +425,11 @@ textarea.form-control {
 }
 .header-area.header-two .constik-nav .navbar .nav-item a,
 .header-area.header-three .constik-nav .navbar .nav-item a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .header-area.header-two .constik-nav .navbar .nav-item .toggle::after,
 .header-area.header-three .constik-nav .navbar .nav-item .toggle::after {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .header-area.header-two
   .constik-nav
@@ -442,7 +443,7 @@ textarea.form-control {
   .side-option
   .item
   a:not(.primary-btn) {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .header-area.header-two
   .constik-nav
@@ -507,7 +508,6 @@ textarea.form-control {
   position: inherit;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 50px;
   padding-bottom: 0;
   background: #fff;
   border: 2px solid var(--main-color);
@@ -520,21 +520,21 @@ textarea.form-control {
 .constik-nav .navbar .navbar-brand img {
   width: auto;
   max-width: 100%;
-  max-height: 200px;
+  max-height: 70px;
 }
 .constik-nav .navbar .navbar-nav .nav-item {
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .constik-nav .navbar .navbar-nav .nav-item a {
   color: #1a1a1a;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
@@ -865,7 +865,7 @@ textarea.form-control {
 }
 .header-area.header-two .main-navbar-area.stickyadd .constik-nav {
   padding: 5px 0;
-  background: #001e4c0a;
+  background: #fff;
 }
 .header-area.header-three .main-navbar-area.stickyadd .constik-nav {
   padding: 5px 0;
@@ -6459,9 +6459,9 @@ textarea.form-control {
 .footer-area .contact-info .content .tag {
   display: inline-table;
   text-align: center;
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: #fff;
-  padding: 3px 10px;
+  padding: 10px 10px;
   font-size: 16px;
   font-weight: 600;
   margin-right: 10px;
