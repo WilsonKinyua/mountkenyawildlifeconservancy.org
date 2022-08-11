@@ -36,12 +36,12 @@ jQuery(
       midClick: true,
     });
     $(".banner-slider").owlCarousel({
-      loop: false,
+      loop: 0,
       margin: 0,
       items: 1,
       autoplay: true,
       autoplayHoverPause: true,
-      autoplayTimeout: 8500,
+      autoplayTimeout: 4000,
       smartSpeed: 450,
     });
     $(".strong-service-slider").owlCarousel({
