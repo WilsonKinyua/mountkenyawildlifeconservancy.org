@@ -1756,11 +1756,11 @@ textarea.form-control {
   padding-bottom: 108px;
 }
 .banner-content h1 {
-  font-size: 53px;
+  font-size: 3em;
   color: #fff;
   margin-bottom: 20px;
   margin-top: -15px;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
   line-height: 1.2;
   font-family: 'Floreal', sans-serif;
 }
@@ -1768,7 +1768,7 @@ textarea.form-control {
   color: var(--main-color);
 }
 .banner-content p {
-  font-size: 23.5px;
+  font-size: 1.25em;
   color: #fff;
   margin-bottom: 35px;
   font-family: 'Proxima', sans-serif;

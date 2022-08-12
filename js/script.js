@@ -41,7 +41,7 @@ jQuery(
       items: 1,
       autoplay: true,
       autoplayHoverPause: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 6000,
       smartSpeed: 450,
     });
     $(".strong-service-slider").owlCarousel({
