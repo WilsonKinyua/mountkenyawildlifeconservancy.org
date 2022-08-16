@@ -282,44 +282,44 @@ jQuery(
         output.style.left = `calc(${newValue}% + (${newPosition}px))`;
       });
     });
-    $(".newsletter-form")
-      .validator()
-      .on("submit", function (event) {
-        if (event.isDefaultPrevented()) {
-          formErrorSub();
-          submitMSGSub(false, "Invalid E-mail.");
-        } else {
-          event.preventDefault();
-        }
-      });
-    function callbackFunction(resp) {
-      if (resp.result === "success") {
-        formSuccessSub();
-      } else {
-        formErrorSub();
-      }
-    }
-    function formSuccessSub() {
-      $(".newsletter-form")[0].reset();
-      submitMSGSub(true, "Thank you for subscribing!");
-      setTimeout(function () {
-        $("#validator-newsletter").addClass("hide");
-      }, 4000);
-    }
-    function formErrorSub() {
-      $(".newsletter-form").addClass("animated shake");
-      setTimeout(function () {
-        $(".newsletter-form").removeClass("animated shake");
-      }, 1000);
-    }
-    function submitMSGSub(valid, msg) {
-      if (valid) {
-        var msgClasses = "validation-success";
-      } else {
-        var msgClasses = "validation-danger";
-      }
-      $("#validator-newsletter").removeClass().addClass(msgClasses).text(msg);
-    }
+    // $(".newsletter-form")
+    //   .validator()
+    //   .on("submit", function (event) {
+    //     if (event.isDefaultPrevented()) {
+    //       formErrorSub();
+    //       submitMSGSub(false, "Invalid E-mail.");
+    //     } else {
+    //       event.preventDefault();
+    //     }
+    //   });
+    // function callbackFunction(resp) {
+    //   if (resp.result === "success") {
+    //     formSuccessSub();
+    //   } else {
+    //     formErrorSub();
+    //   }
+    // }
+    // function formSuccessSub() {
+    //   $(".newsletter-form")[0].reset();
+    //   submitMSGSub(true, "Thank you for subscribing!");
+    //   setTimeout(function () {
+    //     $("#validator-newsletter").addClass("hide");
+    //   }, 4000);
+    // }
+    // function formErrorSub() {
+    //   $(".newsletter-form").addClass("animated shake");
+    //   setTimeout(function () {
+    //     $(".newsletter-form").removeClass("animated shake");
+    //   }, 1000);
+    // }
+    // function submitMSGSub(valid, msg) {
+    //   if (valid) {
+    //     var msgClasses = "validation-success";
+    //   } else {
+    //     var msgClasses = "validation-danger";
+    //   }
+    //   $("#validator-newsletter").removeClass().addClass(msgClasses).text(msg);
+    // }
     // $(".newsletter-form").ajaxChimp({
     //   url: "",
     //   callback: callbackFunction,

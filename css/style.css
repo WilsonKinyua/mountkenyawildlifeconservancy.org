@@ -1,18 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap";
 
 @font-face {
-  font-family: 'Floreal';
-  src: url('../fonts/Floreal.ttf');
+  font-family: "Floreal";
+  src: url("../fonts/Floreal.ttf");
 }
 
 @font-face {
-  font-family: 'Proxima';
-  src: url('../fonts/ProximaNova-Regular.otf');
+  font-family: "Proxima";
+  src: url("../fonts/ProximaNova-Regular.otf");
 }
 
 :root {
   --main-color: #536413;
-  --primary-color:#8d5013;
+  --primary-color: #8d5013;
   --secondary-color: #511013;
 }
 
@@ -188,7 +188,8 @@ p:last-child {
   padding: unset;
   margin-top: -10px;
 }
-.primary-btn {
+.primary-btn,
+.btn-outline-primary {
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -207,6 +208,12 @@ p:last-child {
   line-height: 1.8;
   text-transform: capitalize;
 }
+/* .btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-color: var(--primary-color);
+} */
+
 .donate {
   background-color: #8d5013;
 }
@@ -1739,7 +1746,6 @@ textarea.form-control {
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh; */
-  
 }
 .home-banner-area::before {
   content: "";
@@ -1762,7 +1768,7 @@ textarea.form-control {
   margin-top: -15px;
   letter-spacing: 7px;
   line-height: 1.2;
-  font-family: 'Floreal', sans-serif;
+  font-family: "Floreal", sans-serif;
 }
 .banner-content h1 span {
   color: var(--main-color);
@@ -1771,7 +1777,7 @@ textarea.form-control {
   font-size: 1.25em;
   color: #fff;
   margin-bottom: 35px;
-  font-family: 'Proxima', sans-serif;
+  font-family: "Proxima", sans-serif;
 }
 .banner-content .social-link a {
   display: inline-block;
@@ -1841,7 +1847,6 @@ textarea.form-control {
   width: 100%;
   /* height: 100%; */
   background: rgba(0, 0, 0, 0);
-  
 }
 
 .banner-three .banner-slider .owl-item:nth-child(1) {
@@ -3413,11 +3418,12 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 .newsletter-section .newsletter-content .newsletter-form .form-control {
-  color: #d2d2d2;
+  color: #000000;
   height: auto;
-  background: 0 0;
+  background: #fff;
   border-radius: 0;
-  border: 1px solid var(--main-color);
+  border: 1px solid #fff;
+  border-radius: 3px;
 }
 .validation-danger,
 .validation-success {
@@ -3513,9 +3519,11 @@ textarea.form-control {
   margin-bottom: 20px;
 }
 .newsletter-three.newsletter-section {
-  background: url(../img-old/newsletter-bg-1.jpg) no-repeat center;
+  background: url("https://images.unsplash.com/photo-1598200904200-f906c35136e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")
+    no-repeat center;
   background-size: cover;
   background-position: top;
+  height: 500px;
 }
 .newsletter-three.newsletter-section::after {
   position: absolute;
@@ -3524,16 +3532,16 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
+  /* background: -webkit-gradient(
     linear,
     left top,
     right top,
     from(rgba(0, 30, 76, 0.9)),
     to(rgba(0, 30, 76, 0.3))
-  );
+  ); */
   background: linear-gradient(
     to right,
-    rgba(0, 30, 76, 0.9) 0%,
+    rgba(34, 33, 33, 0.9) 0%,
     rgba(0, 30, 76, 0.3) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6001e4c',endColorstr='#4d001e4c',GradientType=1 );
@@ -6632,4 +6640,3 @@ textarea.form-control {
     opacity: 1;
   }
 }
-
