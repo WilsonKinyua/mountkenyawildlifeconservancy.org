@@ -25,6 +25,9 @@ body {
 .main-color {
   color: var(--main-color);
 }
+.bongo-color {
+  color: var(--primary-color);
+}
 .border-top {
   border-top: 1px solid var(--secondary-color);
 }
@@ -88,7 +91,7 @@ p {
   color: #404040;
   font-size: 16px;
   margin-bottom: 15px;
-  line-height: 1.6;
+  line-height: 35px;
 }
 p:last-child {
   margin-bottom: 0;
@@ -208,12 +211,14 @@ p:last-child {
   line-height: 1.8;
   text-transform: capitalize;
 }
-/* .btn-outline-primary {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
-  border-color: var(--primary-color);
-} */
-
+.secondary-btn {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 16px 50px;
+}
+.secondary-btn:hover {
+  background-color: var(--secondary-color);
+}
 .donate {
   background-color: #8d5013;
 }
@@ -236,7 +241,7 @@ p:last-child {
   top: 0;
   right: 0;
 }
-.primary-btn:hover {
+.primary-btn:hover,.secondary-btn:hover {
   color: #fff;
 }
 .primary-btn:hover::before,
@@ -6639,4 +6644,56 @@ textarea.form-control {
   100% {
     opacity: 1;
   }
+}
+/* why-choose-us */
+.why-choose-us {
+  background-image: url("https://azim.commonsupport.com/Weldlfe/assets/images/background/chooseus-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-whychoose-us {
+  background-color: #cccccccf;
+}
+.why-choose-us .inner-box {
+  padding: 100px 0px;
+}
+
+.why-choose-us h2 {
+  position: relative;
+  display: block;
+  font-size: 50px;
+  line-height: 60px;
+  padding-top: 11px;
+  text-transform: uppercase;
+}
+.why-choose-us .list-style-one li {
+  list-style: none;
+  line-height: 35px;
+}
+
+.why-choose-us .list-style-one i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+.whychooseus-content-box {
+  background-color: var(--primary-color);
+  padding: 60px;
+}
+.whychooseus-content-box h3 {
+  display: block;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  margin-bottom: 26px;
+  text-transform: uppercase;
+}
+
+.whychooseus-content-box h5 {
+  font-weight: 300;
+  color: rgb(192, 192, 192);
+  font-size: 14px;
+}
+
+.whychooseus-content-box h2 {
+  font-size: 3.4em;
 }
