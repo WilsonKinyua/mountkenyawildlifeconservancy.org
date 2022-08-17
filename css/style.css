@@ -544,10 +544,11 @@ textarea.form-control {
   color: #1a1a1a;
   font-size: 17px;
   font-weight: 400;
-  padding-left: 30px;
-  padding-right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 5px;
 }
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
@@ -1539,6 +1540,33 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
   margin-top: 0;
+}
+/* .constik-nav .navbar .navbar-nav .nav-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  width: 80px;
+  height: 56px;
+} */
+
+/* .constik-nav .navbar .navbar-nav .nav-item:hover:before {
+  width: 100%;
+  background: #8d5013d2;
+} */
+
+/* .constik-nav .navbar .navbar-nav .nav-item:active {
+  transform: scale(0.96);
+}
+.constik-nav .navbar .navbar-nav .nav-item .nav-link:hover {
+  transition: all 0.2s ease;
+} */
+.constik-nav .navbar .navbar-nav .nav-item a:hover{
+  background-color: var(--secondary-color);
+  color: #fff;
 }
 @media only screen and (max-width: 1199px) {
   .header-area .top-header-area {
