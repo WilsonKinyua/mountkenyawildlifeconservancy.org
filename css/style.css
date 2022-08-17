@@ -241,7 +241,8 @@ p:last-child {
   top: 0;
   right: 0;
 }
-.primary-btn:hover,.secondary-btn:hover {
+.primary-btn:hover,
+.secondary-btn:hover {
   color: #fff;
 }
 .primary-btn:hover::before,
