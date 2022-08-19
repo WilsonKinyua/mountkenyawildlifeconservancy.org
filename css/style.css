@@ -6679,12 +6679,13 @@ textarea.form-control {
   background-image: url("https://images.unsplash.com/photo-1603696861627-db79cf52fecb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .bg-whychoose-us {
   background-color: #cccccccf;
 }
 .why-choose-us .inner-box {
-  padding: 100px 0px;
+  padding: 150px 0px;
 }
 
 .why-choose-us h2 {
