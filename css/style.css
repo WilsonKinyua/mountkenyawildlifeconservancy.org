@@ -3411,7 +3411,7 @@ textarea.form-control {
 .newsletter-section,
 .newsletter-section.newsletter-three {
   position: relative;
-  background: url(../img-old/newsletter-bg-1.jpg) no-repeat center;
+  background: url('') no-repeat center;
   background-size: cover;
   background-position: top;
   z-index: 1;
@@ -3557,7 +3557,8 @@ textarea.form-control {
     no-repeat center;
   background-size: cover;
   background-position: top;
-  height: 500px;
+  height: 65vh;
+  background-attachment: fixed;
 }
 .newsletter-three.newsletter-section::after {
   position: absolute;
