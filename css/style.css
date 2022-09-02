@@ -1925,6 +1925,7 @@ textarea.form-control {
   align-items: center;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  margin-bottom: -40px;
 }
 .banner-three .owl-carousel .owl-dots .owl-dot {
   display: inline-block;
