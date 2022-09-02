@@ -542,13 +542,14 @@ textarea.form-control {
 }
 .constik-nav .navbar .navbar-nav .nav-item a {
   color: #1a1a1a;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .constik-nav .navbar .navbar-nav .nav-item a.active {
@@ -594,6 +595,7 @@ textarea.form-control {
 }
 .constik-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a {
   padding: 20px 0px 10px 16px;
+  text-transform: uppercase;
 }
 .dropdown-menu {
   padding: 0px !important;
@@ -608,7 +610,7 @@ textarea.form-control {
   .dropdown-menu
   .nav-item
   .nav-link:hover {
-  background-color: #531b02;
+  background-color: var(--primary-color);
 }
 .constik-nav
   .navbar
@@ -1565,7 +1567,7 @@ textarea.form-control {
   transition: all 0.2s ease;
 } */
 .constik-nav .navbar .navbar-nav .nav-item a:hover{
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: #fff;
 }
 @media only screen and (max-width: 1199px) {
@@ -6434,8 +6436,8 @@ textarea.form-control {
   }
 }
 .footer-area {
-  background-color: var(--main-color);
-  color: #fff;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
 }
 .footer-area .footer-widget {
   margin-bottom: 30px;
@@ -6453,7 +6455,7 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 .footer-area ul li a {
-  color: #fff;
+  color: #000;
 }
 .footer-area .navbar-brand {
   margin-bottom: 15px;
@@ -6463,7 +6465,7 @@ textarea.form-control {
   text-transform: capitalize;
   margin-bottom: 25px;
   margin-top: 13px;
-  color: #fff;
+  color: #000;
 }
 .footer-area .footer-links li {
   -webkit-transition: 0.5s;
@@ -6471,7 +6473,7 @@ textarea.form-control {
 }
 .footer-area .footer-links li i {
   font-size: 12px;
-  color: #fff;
+  color: #000;
 }
 .footer-area .footer-links li:hover {
   -webkit-transform: translateX(5px);
