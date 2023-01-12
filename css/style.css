@@ -1794,7 +1794,7 @@ textarea.form-control {
   background: rgba(26, 26, 26, 0.496236);
 }
 .banner-content {
-  padding-top: 520px;
+  padding-top: 450px;
   padding-bottom: 108px;
 }
 .banner-content h1 {
@@ -1896,7 +1896,7 @@ textarea.form-control {
   height: 100vh;
 }
 .banner-three .banner-slider .owl-item:nth-child(3) {
-  /* background: url() no-repeat center; */
+  background: url(../img/education.jpeg) no-repeat center;
   background-size: cover;
   height: 100vh;
 }
